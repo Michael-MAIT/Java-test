@@ -1,14 +1,14 @@
-public class Primaerzahlen {
+public class Primzahlen {
     public static void main(String[] args) {
         for (int i=2; i<100;i++) {
-            boolean primaerzahl = true;
+            boolean primzahl = true;
             for (int x=2; x<i; x++) {
                 if (i%x==0) {
-                    primaerzahl = false;
+                    primzahl = false;
                 break;
                 }
             }
-            if (primaerzahl == true) {
+            if (primzahl == true) {
             System.out.println(i);
             }
         }
